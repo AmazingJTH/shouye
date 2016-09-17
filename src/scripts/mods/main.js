@@ -10,7 +10,7 @@ module.exports=function(){
         $("#kfff").css({"top":$(document).scrollTop()+120+"px"});
     });
     $.ajax({
-        url:"mock/list.json",
+        url:"/api/getindex",
         dataType:"json",
         success:function (data) {
             for(var i=0;i<data.length;i++){
