@@ -1,3 +1,4 @@
+var $=require('../libs/jquery.js');
 var common={
 	load:function(str){
 		$("body").prepend(str);
@@ -32,9 +33,3 @@ var common={
 	}
 }
 module.exports=common;
-
-
-
-
-
-
