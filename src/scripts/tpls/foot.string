@@ -1,0 +1,15 @@
+<div class="footbox">
+    <div class="foot">
+        <div class="foottop">
+            <a href="index.html" class="footlogo"><img src="images/logo.jpg" /></a>
+            <div class="foottel">
+                <p class="phone">022-58170397</p>
+                <a href="#" class="kefu">客服电话</a>
+            </div>
+        </div>
+        <div class="footbot">
+            <p class="copy"><a href="#">© 2005-2016 e瓷 版权所有，并保留所有权利。</a></p>
+            <p class="qq"><a href="#"><img src="images/qq.gif"/>1147970475</a> </p>
+        </div>
+    </div>
+</div>

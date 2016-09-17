@@ -1,0 +1,73 @@
+.listbox{
+  float: left;
+  margin-top:30px;
+  width:100%;
+  .ls{
+    overflow: hidden;
+    width:1210px;
+    margin:0 auto;
+    .bt{
+      display: block;
+      color: #666;
+      font-size:12px;
+    }
+    dl{
+      float: left;
+      width:180px;
+      height:280px;
+      padding:10px 20px;
+      background: #fff;
+      margin-right:20px;
+      margin-bottom:10px;
+      dt{
+        img{
+          width:180px;
+          height:180px;
+        }
+      }
+      dd{
+        font-size:12px;
+        color: #666;
+        height:26px;
+        margin-top:8px;
+        a{
+          color: #666;
+        }
+        a:hover{
+          color: #E22A40;
+          text-decoration: underline;
+        }
+        span{
+          color: #E22A40;
+        }
+        .car{
+          float: right;
+          width: 32px;
+          height: 32px;
+          background: url("../images/index.png") no-repeat 0 0;
+        }
+      }
+    }
+  }
+  .btns{
+    width:120px;
+    margin:0 auto;
+    p{
+      float: left;
+      width:30px;
+      height:30px;
+      margin-right:8px;
+      text-align: center;
+      line-height:30px;
+      font-size:12px;
+      border:1px solid #ddd;
+      color: #666;
+      background: #eee;
+      cursor: pointer;
+    }
+    .active{
+      background: #E4393C;
+      color: #FFF;
+    }
+  }
+}

@@ -1,0 +1,96 @@
+.topbox{
+  float: left;
+  width:100%;
+  height:105px;
+  .top{
+    width:1210px;
+    height:105px;
+    margin:0 auto;
+    .logo{
+      float: left;
+      width:290px;
+      height: 60px;
+      margin-top:15px;
+      background:url("../images/logo.jpg");
+    }
+    .search{
+      width:540px;
+      float: left;
+      position: relative;
+      padding:20px 0 0 90px;
+      font: 12px/150% microsoft yahei;
+      color: #666666;
+      .seaTop{
+        float: left;
+        width:540px;
+        li{
+          cursor: pointer;
+          float: left;
+          height: 25px;
+          line-height: 25px;
+          text-align: center;
+          width: 50px;
+        }
+        .show{
+          background: #E31939;
+          color: #fff;
+        }
+      }
+      .inp{
+        float: left;
+        width:537px;
+        border:solid #E31939;
+        border-width: 3px 0 3px 3px;
+        .insert{
+          display: inline-block;
+          width:435px;
+          padding:4px;
+          height:22px;
+          line-height:22px;
+          border:none;
+          color: #999;
+          outline: none;
+        }
+        .btn{
+          display: inline-block;
+          width:90px;
+          height:32px;
+          text-align: center;
+          line-height:32px;
+          font-size:16px;
+          font-weight:600;
+          color: #fff;
+          background: #E31939;
+          border:none;
+          outline: none;
+          cursor: pointer;
+        }
+      }
+      .hot{
+        float: left;
+        width:100%;
+        height:16px;
+        margin-top:6px;
+        color: #999;
+        font-size:12px;
+        li{
+          float: left;
+          display: inline-block;
+          border-left:1px solid #999;
+          padding:0 12px;
+          line-height:1.1;
+          a{
+            color: #999;
+          }
+          a:hover{
+            color: #E31939;
+            text-decoration: underline;
+          }
+        }
+        .noborderleft{
+          border:0;
+        }
+      }
+    }
+  }
+}

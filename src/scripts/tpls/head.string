@@ -1,0 +1,37 @@
+<div class="headBox">
+    <div class="head">
+        <div class="headleft">
+            <span>欢迎光临！</span>
+            <a href="login.html" class="login" id="logined">请登录</a>
+            <a href="regist.html" class="regist">免费注册</a>
+        </div>
+        <ul class="headright">
+            <li class="information"><a href="#" class="info">我的信息<span></span></a>
+                <div class="myInfo">
+                    <a href="#">已买到的宝贝</a>
+                    <a href="#">我的地址管理</a>
+                </div>
+            </li>
+            <li class="nopad"><a href="#" style="color: #e31939" class="shop">我关注的店铺</a></li>
+            <li class="nopad"><a href="myCart.html" style="color: #e31939" class="cart">购物车</a></li>
+            <li class="savecart"><a href="#" class="save">收藏夹<span></span></a>
+                <div class="mySave">
+                    <a href="#">收藏的宝贝</a>
+                    <a href="#">收藏的店铺</a>
+                </div>
+            </li>
+            <li  class="line"><span>|</span></li>
+            <li class="support"><a href="#" class="partner">商家支持<span></span></a>
+                <div class="mySur">
+                    <h5>商家</h5>
+                    <a href="#">售后流程</a>
+                    <a href="#">购物流程</a>
+                    <a href="#">订购方式</a>
+                    <a href="#">常见问题</a>
+                    <h5>帮助</h5>
+                    <a href="#">帮助中心</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

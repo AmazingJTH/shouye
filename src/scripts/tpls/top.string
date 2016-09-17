@@ -1,0 +1,26 @@
+<div class="topbox">
+    <div class="top">
+        <a href="index.html"><h1 class="logo"></h1></a>
+        <div class="search">
+            <ul class="seaTop">
+                <li class="show">宝贝</li>
+                <li class="hide">店铺</li>
+            </ul>
+            <form class="inp" method="get" action="index.html">
+                <input type="text" class="insert" placeholder="请输入关键词"/>
+                <input type="submit" class="btn" value="搜索"/>
+            </form>
+            <ul class="hot">
+                <li class="noborderleft"><a href="list.html">餐具</a></li>
+                <li><a href="list.html">茶具</a></li>
+                <li><a href="list.html">咖啡具</a></li>
+                <li><a href="list.html">酒具</a></li>
+                <li><a href="list.html">创意瓷</a></li>
+                <li><a href="list.html">紫砂</a></li>
+                <li><a href="list.html">艺术瓷</a></li>
+                <li><a href="list.html">陈设瓷</a></li>
+                <li><a href="list.html">仿古瓷</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

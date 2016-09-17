@@ -1,0 +1,14 @@
+.kf{
+  position: absolute;
+  top:150px;
+  right:10px;
+  transition: 1s;
+  z-index:100;
+  a{
+    display: block;
+    img{
+      width:185px;
+      height:116px;
+    }
+  }
+}
